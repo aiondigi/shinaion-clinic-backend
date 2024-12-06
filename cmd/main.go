@@ -30,7 +30,7 @@ func main() {
 	database.Seed(database.DB)
 
 	// Start the server
-	if err := router.Run(":8090"); err != nil {
+	if err := router.Run(":8088"); err != nil {
 		log.Fatalf("Error starting server: %v", err)
 	}
 }
